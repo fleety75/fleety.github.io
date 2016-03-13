@@ -8,22 +8,20 @@ body
 	font-size:90%;
 	display:block;
 	margin-bottom:10px;
-	width:600px;
+	width:500px;
 	padding:0.4em 1em 0.4em 1em;
 	color:orange;
-	background-color:rgba(238,233,157,0.34);
-	border:1px solid orange;
+	background-color:rgba(0,0,0,0.34);
 }
 h1,h2
 {
-	text-align:left;
+	text-align:center;
 	text-shadow: black 1px 0px, black 1px 1px, black 0px 1px, black -1px 1px, black -1px 0px, black -1px -1px, black 0px -1px, black 1px -1px;
 }
 .mainmenu
 {
 	font-size:90%;
 	width:600px;
-	border-bottom:1px solid orange;
 }
 
 .mainmenu ul
@@ -32,7 +30,6 @@ h1,h2
 	margin:0;
 	padding:0;
 	padding-top:15pt;
-	border-bottom:1px solid orange;
 }
 
 .mainmenu li
@@ -61,7 +58,7 @@ h1,h2
 	display:block;
 	margin-bottom:10px;
 	margin-top:10px;
-	background-color:rgba(236,234,207,0.34);
+	background-color:rgba(236,116,0,0.34);
 	padding:15pt;
 }
 h3
@@ -78,10 +75,9 @@ h3
 {
 	padding:0.4em 1em 0.4em 1em;
 	color:orange;
-	background-color:#EEE99D;
+	background-color:rgba(0,0,0,0.34);
 	font-size:90%;
-	width:600px;
-	border:1px solid orange;
+	width:500px;
 }
 #regis{
 	font-size:90%;
@@ -152,5 +148,12 @@ border:1px solid orange;
 	margin:10px;
 	border:5px outset orange;
 	background-color:#4B4545;
+	color:orange;
+}
+.link1:link,.link1:visited{
+	text-decoration:none;
+	color:black;
+}
+.link1:hover{
 	color:orange;
 }
