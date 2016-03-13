@@ -44,14 +44,14 @@ h1,h2
 .mainmenu a:link, .mainmenu a:visited
 {
 	padding:0.4em 1em 0.4em 1em;
-	color:orange;
+	color:#D0C05D;
 	background-color:#EEE99D;
 	text-decoration:none;
 }
 
 .mainmenu a:hover
 {
-	color:orange;
+	color:#D0C05D;
 	background-color:black;
 }
 .content
