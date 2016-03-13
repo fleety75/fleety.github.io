@@ -1,10 +1,7 @@
 @charset "UTF-8";
 body
 {
-	background-image:url(images/fon.jpg);
-	background-attachment: fixed;
-	background-repeat:no-repeat;
-	background-size:cover;
+	background-image:url(images/fon1.jpg);
 }
 .top
 {
