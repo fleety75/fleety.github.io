@@ -1,0 +1,66 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Fleety</title>
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  	<script type="text/javascript">
+		$(document).ready(function(){
+			var images0=["images/fon1.jpg","images/fon2.jpg","3.jpg","5.jpg",];
+			var currentImg=0;
+			$("#img1").attr("src",images0[currentImg]);
+			$("#back").click(function(){
+				if (currentImg!=0) {
+					currentImg--;
+					$("#img1").attr("src",images0[currentImg]);
+				}
+			});
+			$("#forward").click(function(){
+				if (currentImg!=images0.length-1) {
+					currentImg++;
+					$("#img1").attr("src",images0[currentImg]);
+				}
+			});
+		});
+		var param=1;
+		function changeSizePic() {
+			if (param==2) {
+			document.getElementById('img1').style="width:400px;";
+			param=1
+			} else {
+			document.getElementById('img1').style="";
+			param=2;
+			}
+		}
+	</script>
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+  <center>
+  <div class="top">
+  <h1>Welcome on my site</h1>
+  <h2>By Fleety</h2>
+  </div>
+  <div class="mainmenu">
+  <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="info.html">О сайте</a></li>
+        <li><a href="foto.html">Галерея</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+  </ul>
+  </div>
+  <div class="content" style="width=500px">
+  
+  <div class="images1">
+	<center><img id="img1" style="width:400px;" src="" onclick="changeSizePic()"/></center>
+	<br>
+	<button id="back">Назад</button>
+	<button id="forward">Вперёд</button>
+  </div>
+  
+  </div>
+  <h6 class="bottom">Blog | By Fleety | 2016</h6>
+  </center>
+</body>
+</html>
