@@ -6,7 +6,7 @@
   <script type="text/javascript" src="jquery.js"></script>
   	<script type="text/javascript">
 		$(document).ready(function(){
-			var images0=["images/fon1.jpg","images/fon2.jpg","3.jpg","5.jpg",];
+			var images0=["images/fon1.jpg","images/fon2.jpg","images/3.jpg","images/5.jpg",];
 			var currentImg=0;
 			$("#img1").attr("src",images0[currentImg]);
 			$("#back").click(function(){
@@ -53,10 +53,10 @@
   <div class="content" style="width=500px">
   
   <div class="images1">
-	<center><img id="img1" style="width:400px;" src="" onclick="changeSizePic()"/></center>
-	<br>
-	<button id="back">Назад</button>
+  	<button id="back">Назад</button> | 
 	<button id="forward">Вперёд</button>
+	<br>
+	<center><img id="img1" style="width:400px;" src="" onclick="changeSizePic()"/></center>
   </div>
   
   </div>
