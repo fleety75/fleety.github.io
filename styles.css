@@ -11,7 +11,7 @@ body
 	width:500px;
 	padding:0.4em 1em 0.4em 1em;
 	color:orange;
-	background-color:rgba(240,230,140,0.34);
+	background-color:rgba(236,116,0,0.34);
 }
 h1,h2
 {
@@ -75,7 +75,7 @@ h3
 {
 	padding:0.4em 1em 0.4em 1em;
 	color:orange;
-	background-color:rgba(240,230,140,0.34);
+	background-color:rgba(236,116,0,0.34);
 	font-size:90%;
 	width:500px;
 }
