@@ -65,6 +65,7 @@ h3
 {
 	text-align:left;
 	border-bottom:1px solid orange;
+	color:rgb(158,80,0);
 }
 .cont1
 {
@@ -74,7 +75,7 @@ h3
 .bottom
 {
 	padding:0.4em 1em 0.4em 1em;
-	color:black;
+	color:rgb(158,80,0);
 	background-color:rgba(236,116,0,0.34);
 	font-size:90%;
 	width:500px;
@@ -155,5 +156,5 @@ border:1px solid orange;
 	color:black;
 }
 .link1:hover{
-	color:orange;
+	color:rgb(158,80,0);
 }
